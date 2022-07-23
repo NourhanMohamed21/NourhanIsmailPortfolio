@@ -7,7 +7,7 @@ export default function Projects(props) {
             <div className="row About--padding ">
                 <div className="col-lg-2 "></div>
                 <div className="col-sm-12 col-lg-4 col-md-12 About--align">
-                    <img src={`../images/${props.img}`} className="Project--Image" />
+                    <img src={props.img} className="Project--Image" />
                 </div>
                 <div className="col-sm-12 col-lg-4  col-md-12 About--text">
             <p className="About--Header">{props.Name}</p>
