@@ -1,0 +1,305 @@
+@media (max-width: 990px) {
+    .Header--Name {
+        padding-top: 10%;
+        font-size  : large !important;
+        font-weight: bold !important;
+    }
+
+    .Header--tittle {
+        font-size  : small !important;
+        font-weight: bold !important;
+
+    }
+
+    .typed-text {
+        font-size  : medium !important;
+        font-weight: bold !important;
+    }
+
+    .HeaderImg {
+        height: 50vh !important;
+    }
+    .Header--button{
+        font-size: medium !important;
+        padding: 2px !important;
+    
+    }
+    .About--align{
+        text-align: center !important;
+        margin: 0%;
+        padding: 0%;
+    }
+    .About--text{
+        padding: 50px !important;
+        text-align: center !important;
+        font-size: large;
+    }
+    .About--Header{
+        font-size: larger;
+        font-weight: bold;
+    }
+    .About--Image{
+        margin: 0% !important;
+        
+    }
+    .Project--Image{
+        margin: 0% !important;
+        width: 150px;
+        
+    }
+  
+}
+.HeaderImg {
+    height : 40%;
+    width  : 100%;
+    display: block;
+    opacity: 0.4;
+}
+
+
+.containerHeader {
+    position  : relative;
+    text-align: center;
+
+    height: 100%;
+    height: 50%;
+
+}
+
+.centeredHeader {
+    color    : rgb(5, 17, 51);
+    position : absolute;
+    top      : 70%;
+    left     : 50%;
+    transform: translate(-50%, -50%);
+}
+
+.typed-text {
+    font-size: 2em;
+}
+
+.Header--Name {
+    font-size  : xx-large;
+    font-weight: bolder;
+}
+
+.Header--tittle {
+    font-size  : x-large;
+    font-weight: bold;
+}
+.Header--button
+{
+    font-weight: bold;
+    font-size: larger;
+}
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Header {
+    color      : rgb(57, 116, 172);
+    font-weight: 800;
+}
+
+
+
+h2,
+h6,
+h5,
+h3 {
+    display: inline;
+}
+.nav-linkk:active {
+    color: rgb(212, 205, 72);
+}
+
+.nav-linkk:hover {
+    color         : rgb(57, 116, 172);
+    /* font-weight: 900px; */
+    font-size     : larger;
+}
+
+.nav-linkk {
+    display        : block;
+    color          : grey;
+    text-decoration: none;
+    font-weight    : bold;
+    transition     : color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+body {
+    padding-top : 1rem;
+    margin-left : 5%;
+    margin-right: 5%;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0.7;
+}
+
+.offcanvas-header {
+
+    justify-content: space-evenly !important;
+
+}
+
+.offcanvas-start {
+    width: 70% !important;
+}
+
+.Margin {
+    margin-top: 10%;
+}
+
+.padding {
+    padding-top: 10%;
+}
+
+h1,
+h2 {
+    display: inline;
+}
+
+
+
+nav,
+html,
+body {
+    padding: 0px !important;
+    margin : 0%;
+}
+
+
+.About{
+    padding-top: 5%;
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 7%;
+    
+   
+}
+.About--padding{
+    padding: 0%;
+    margin: 0%;
+}
+.About--Header{
+    color      : rgb(57, 116, 172);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    display: block;
+}
+.About--align{
+    padding-right:0% !important ;
+    text-align: right;
+}
+.About--Image{
+    width: 160px;
+    border: none;
+    border-radius: 50%;    
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+.About--text{
+   
+    font-size: larger;
+    padding: 0px;
+}
+
+.Project{
+    padding-top: 2%;
+    background-color: white;
+    padding-bottom: 7%;
+    
+   
+}
+
+  .projects--Info
+  {
+    padding-left: 60px;
+    display: block;
+  }
+ 
+
+  .Project--Image{
+    width: 300px;
+    height: 300px;
+    border: none;  
+    text-align: center;
+    justify-content: center;
+    margin-right: 100px;
+
+}
+.Projects--buttonText
+{
+    text-decoration: none;
+    color: black;
+}
+.Projects--button{
+border-radius: 9px;
+background-color: rgb(223, 223, 223);
+}
+
+.Skills
+{
+    
+    text-align: center;
+    background-color:rgb(210, 210, 210);
+    padding: 60px;
+}
+.Skills--prog
+{
+    padding: 15px;
+    /* border:2px solid black; */
+}
+.Skills--tittle
+{
+    padding: 20px;
+    display: block;
+    color      : rgb(57, 116, 172);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-bottom: 15px;
+    display: block;
+}
+.Skill--Name
+{
+    text-align: right;
+    padding-right: 10%;
+    color      :#252734;
+}
+
+.footer>button {
+    width     : fit-content;
+    background: #918E9B;
+    gap       : 10px;
+    font-size: x-large;
+}
+
+.footer {
+    text-align: center;
+   
+    width          : 100%;
+    background     : #252734;
+    align-items    : center;
+    font-family    : sans-serif;
+    color          : white;
+    
+    justify-content: center;
+    gap            : 10px;
+    padding-top    : 20px;
+    padding-bottom : 20px;
+    background     : #161619;
+    
+}
+
+.phone{
+    display: block !important;
+    text-align: center;
+}
+#ProjectsSec{
+    padding-top: 5%;
+}
