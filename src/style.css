@@ -47,6 +47,9 @@
         width: 150px;
         
     }
+    .exp-padding{
+        padding-left: 0% !important;
+    }
   
 }
 .HeaderImg {
@@ -172,10 +175,28 @@ body {
 
 .About{
     padding-top: 5%;
-    background-color: rgb(233, 233, 233);
+    /* background-color: rgb(233, 233, 233); */
     padding-bottom: 7%;
     
    
+}
+.experienceSection{
+    /* background-color: rgb(6, 43, 18); */
+    background: rgb(210, 210, 210);
+    padding-bottom: 5%;
+    font-size: larger;
+}
+.exp-padding{
+    padding-left: 20%;
+
+}
+
+.experience{
+    color      : rgb(57, 116, 172);
+    padding-left: 0% !important;
+    text-align: center;
+    justify-content: center;
+
 }
 .About--padding{
     padding: 0%;
@@ -194,7 +215,7 @@ body {
     text-align: right;
 }
 .About--Image{
-    width: 160px;
+    width: 220px;
     border: none;
     border-radius: 50%;    
     text-align: center;

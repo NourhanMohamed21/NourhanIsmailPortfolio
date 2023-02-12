@@ -28,7 +28,7 @@ export default[
     },
     {
         "Name":"JavaScript",
-        "value":80
+        "value":100
 
     },
     {
@@ -43,7 +43,12 @@ export default[
     },
     {
         "Name":"React",
-        "value":80
+        "value":90
+
+    },
+    {
+        "Name":"React-Redux",
+        "value":90
 
     },
     {
@@ -53,16 +58,22 @@ export default[
     },
     {
         "Name":"php",
-        "value":30
+        "value":50
 
     },
     {
         "Name":"MYSQL",
-        "value":60
+        "value":90
 
     },
     {
         "Name":"Git",
+        "value":80
+
+    }
+    ,
+    {
+        "Name":"Linux",
         "value":80
 
     }

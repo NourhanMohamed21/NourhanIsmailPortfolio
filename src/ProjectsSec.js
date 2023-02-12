@@ -13,7 +13,7 @@ const project = data.map(item => {
     
     return(
         <div id="ProjectsSec">
-<h1 className="Skills--tittle">Projects</h1>
+<h1 className="Skills--tittle">Some of my Projects</h1>
 {project}
         </div>
     )

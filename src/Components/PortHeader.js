@@ -12,11 +12,11 @@ export default function PortHeader() {
                 Nourhan Mohamed Ismail<br></br>
             </p>
             <h2 className="Header--tittle">
-                FrontEnd Developer<br></br>
+                Software Developer<br></br>
             </h2>
         <Typed
         className="typed-text"
-        strings={["HTML","CSS","JavaScript","Bootstrap","VUE.js","React.js","PHP","Java","Python","C"]}
+        strings={["HTML","CSS","JavaScript","Bootstrap","VUE.js","React.js","PHP","Java","Python","C","Linux"]}
         typeSpeed={30}
         backSpeed={50}
         loop

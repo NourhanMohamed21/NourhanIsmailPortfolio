@@ -14,7 +14,7 @@ export default function Projects(props) {
                     <p>
                        {props.About}
                     </p>
-                    <button className="Projects--button" ><a href={props.Url} className="Projects--buttonText"> Go to Project repo </a></button>
+                    <button className="Projects--button" ><a href={props.Url} target="_blank" className="Projects--buttonText"> Go to Project repo </a></button>
                    
                 </div>
             </div>

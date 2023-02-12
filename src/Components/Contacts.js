@@ -10,17 +10,17 @@ export default function Contacts(){
         <div className="Contacts footer" id="Contacts">
             <h5 className='phone'> Phone Number: 01126116632 <br /> nourhan.moh.ismail@gmail.com</h5>
             <div className="footer">
-                <button className="Info--BMail" ><a href="https://www.linkedin.com/in/nourhanmohamed21/">
+                <button className="Info--BMail" ><a href="https://www.linkedin.com/in/nourhanmohamed21/" target="_blank">
                     <FontAwesomeIcon icon={faLinkedin} /></a>
                 </button>
-                <button className="Info--BMail" ><a href='https://github.com/NourhanMohamed21'>
+                <button className="Info--BMail" ><a href='https://github.com/NourhanMohamed21'target="_blank">
                     <FontAwesomeIcon icon={faGithub} /></a>
                 </button>
                
-                <button className="Info--BMail" >< a href="https://www.facebook.com/profile.php?id=100000839928071">
+                <button className="Info--BMail" >< a href="https://www.facebook.com/profile.php?id=100000839928071" target="_blank">
                     <FontAwesomeIcon icon={faFacebook} /></a>
                 </button>
-                <button className="Info--BMail" ><a href='https://www.hackerrank.com/nourhan_moh_ism1'>
+                <button className="Info--BMail" ><a href='https://www.hackerrank.com/nourhan_moh_ism1'target="_blank">
                     <FontAwesomeIcon icon={faHackerrank} /> </a>
                 </button>
             </div>
